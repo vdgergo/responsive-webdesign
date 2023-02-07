@@ -58,10 +58,33 @@ table {
   background-color: rgba(255, 0, 0, .3);
 }	
 
-.main-header {
-	font-family: 'Oswald', sans-serif;
+/* ==== BASE STYLES ==== */
+
+body {
+  font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+	color: #333;
 }
 
-.primary-content {
+h1,
+h2 {
 	font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+	font-size: 28.8px;
+}
+h2 {
+	font-size: 25.6px;
+	color: #e5127d;
+}
+.main-header p {
+	font-size: 18px;
+	color: #8c8e9b;
+}
+
+
+
+img {
+	width: 400px;
 }
